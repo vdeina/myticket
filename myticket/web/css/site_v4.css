@@ -1,0 +1,1379 @@
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.main{
+    position: relative;
+    z-index: 3;
+    background: transparent url("../images/index_back.jpg") center 0 no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    min-width: 1200px;
+    min-height: 782px;
+    
+}
+.myticket-case
+{
+  height: 100%;
+  width: 51%;  
+  position: relative;
+  color :#fff;
+    
+}
+.myticket-case .title
+{
+    clear: both;
+    font-family: "ProximaNova Extrabld", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    position: relative;
+    width: 90%;
+    left: 6%;
+    top: 100px;
+    text-transform: uppercase
+}
+.myticket-case .title > span
+{
+    color:#62c4d1;
+}
+.logo{
+    height: 70px;
+    width: 240px;
+    background: transparent url("../images/my_logo.png") 0 0 no-repeat;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+{
+    width: 370px;
+    height: 70px;
+    float: right;
+    margin-top: 32px;
+}
+.contact-info > div
+{
+    float: right;
+    font-family: "ProximaNova Light", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    line-height: 24px;
+    height: 40px;
+    margin: 0 0 0 20px;
+    padding: 0 0 0 30px;
+    }
+.contact-info .phone{
+    background: url(../images/phone-sprite.png) 3px 0px no-repeat;
+    background-size: 21px auto;
+  }
+ .contact-info .email{
+    background: url(../images/email.png) 0 4px no-repeat;
+    background-size: 26px auto;
+  }
+  .form-row
+  {
+    width: 100%;
+  }
+ /*Login form*/ 
+.login_block
+{
+    width: 50%;
+    margin: 180px 0  0 21%;
+} 
+.form-row_btn
+{ 
+  text-align: center;
+}
+.btn-login:hover{
+opacity: 0.9;
+    }
+.btn-login{
+    vertical-align: top;
+    border: none;
+    font-size: 18px;
+    font-family: "ProximaNova Bold", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 46px;
+    opacity: 1;
+    line-height: 46px !important;
+    color: #fff;
+    height: 44px;
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 200px;
+    background: #fb5f54;
+    margin: 10px 0 30px 0;
+}
+.login_block label{
+    font-family: "ProximaNova Reg", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 0 0 3px 20px;
+    text-align: left;
+}
+.login_block input
+{
+    font-family: "ProximaNova Reg", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 44px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #0090dc;
+    height: 44px;
+    padding: 4px 20px 0 20px;
+    position: relative;
+    text-align: left;
+    color: #88e8ff;
+    }
+        
+ /**/ 
+
+.copyright{
+    width: 92%;
+    text-align: center;
+    font-family: "Museo Sans 300", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+.mt-copyright{
+    width: 92%;
+    text-align: center;
+    font-family: "Helveticaneuecyr Light", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px; 
+    bottom: 10px;
+    cursor: default;
+}
+   @media (max-width: 1250px) {
+      .contact-info > div
+       {
+        clear:both;
+       }
+       .contact-info {
+    width: 350px !important;
+       }
+     }
+@media (max-height: 682px) {
+    .main
+    {  
+        min-height: 665px;
+    }
+    .myticket-case .title
+    {
+      font-size: 32px; 
+      top: 55px; 
+    }
+    .login_block {
+    margin: 130px 0 0 21%;
+    }
+     }
+
+.contact-info {
+    width: 370px;
+    height: 70px;
+    float: right;
+    margin-top: 32px;
+}
+ button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+.wrap{
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0px 0 60px;
+    min-width: 1260px;
+}
+.footer {
+    height: 60px;
+    background: #f5f7f7;
+    padding-top: 20px;
+}
+.view_tickets,.edit_ticket{
+    height: 100%; 
+}
+.view-tickets-div{
+    float: left;    
+    width: 60%; 
+}
+.edit-ticket-div{
+    float: left;    
+    width: 40%; 
+    padding: 0 50px; 
+}
+.controllers
+{
+    width: 100%;
+    height: 72px;
+    margin-top: 32px;
+    padding-left: 40px;
+    position: relative;  
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.refresh_btn:hover{
+    border-color: #686E7C;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.period-view:hover{
+    border-color: #686E7C;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.sb-search:hover
+{
+  box-shadow: 0 1px 0px rgba(78, 183, 245, 0.44);
+}
+.refresh_btn {
+    float:left;
+    background: url(../images/refresh.png) 6px 6px no-repeat;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(104, 110, 124, 0.65);
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+.sb-search {
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 320px;
+    font-size: 18px;
+    margin-left: 6px;
+    color: #66737c;
+    padding: 10px 0;
+    padding-left: 41px;
+    background: url("../images/search.svg") no-repeat #fff;
+    background-size: 34px 34px;
+    background-position: 0px 3px;
+    margin-top: 13px;
+    outline: none;
+    border-bottom: 1px solid #4eb7f5;
+}
+.period-view
+{
+    font-family: "ProximaNova Reg", sans-serif;
+    border-radius: 4px;
+    width: 200px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+   /* border: solid thin rgba(0,0,0,0.24);*/
+    border: 1px solid rgba(104, 110, 124, 0.65);
+    padding: 11px 16px;
+    margin: 14px 30px;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+}
+#fast-search-form .form-group
+{   float:left;
+    width: auto; 
+    margin-bottom: 0; 
+}
+
+.office_div
+{
+    clear: both;
+    height: 480px;
+    max-width:100%;
+    min-width: 460px;
+    margin-left: 40px;
+    /*background-color: #FDFDFD;*/
+    border: 1px solid lightgrey;
+    overflow: auto;overflow-y: scroll;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.edit-title{
+    padding-top: 19px;
+    width: 100%;
+    height: 72px;
+    margin-top: 33px;
+    text-align: center;
+    border-bottom: 1px solid #4eb7f5;
+}
+.edit-title span
+{   font-size: 30px;
+    font-family: "Helveticaneuecyr Roman", sans-serif;
+}
+#table-form-edit
+{
+    width:100%;
+    margin-top: 20px;
+}
+#table-form-edit .field-off input{
+        cursor: not-allowed !important;
+        background-color: #f5f5f5 !important;
+}
+#table-form-edit .field input,#table-form-edit .field-off input{
+    font-family: "ProximaNova Light", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 44px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid rgba(104, 110, 124, 0.65);
+    height: 44px;
+    padding: 4px 20px 0 20px;
+    position: relative;
+    text-align: left;
+    outline: none;
+}
+#table-form-edit .field #fasteditform-agent,#table-form-edit .field #fasteditform-cur{
+    font-family: "ProximaNova Light", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 44px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid rgba(104, 110, 124, 0.65);
+    height: 44px;
+    padding: 4px 20px 0 20px;
+    position: relative;
+    text-align: left;
+    outline: none;
+}
+#table-form-edit .form-group
+{  
+    margin-bottom: 0; 
+}
+#table-form-edit .lable,#table-form-edit .lable-off
+{
+    font-family: "ProximaNova Reg",sans-serif;
+    width: 170px;
+    font-size:18px;
+    transition: all 0.3s;
+}
+#table-form-edit .field,#table-form-edit .field-off,#table-form-edit .field-btn
+{
+    text-align: center;
+    padding-bottom: 10px;
+    min-width: 250px;
+}
+#table-form-edit .button-lable > label {
+    width: auto;
+    text-indent: 16px;
+    z-index: 10;
+    background: url("../images/button-lable.svg") no-repeat;
+    background-size: 16px 16px;
+    background-position: 0px 5px;
+
+    }
+/* #table-form-edit .field input:hover{
+    border-color: #686E7C;
+}*/
+#table-form-edit .button-lable
+{
+    padding-left: 10px;
+    width: 17px;
+}
+.input-hover
+{
+    border-color:#565e6f !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.label-hover{
+    text-indent: 10px;
+    color: #4eb7f5;
+    transition: all 0.3s;
+}
+.sbs-stroke
+{
+    float: right;
+    margin-top: 9px;
+}
+.sbs-stroke > .sbs-circle {
+    fill: #ffffff;
+    stroke: #459fed;
+    stroke-width: 1px;
+    cx: 37px;
+    cy: 31px;
+    r: 22px;
+    stroke-dasharray: 170;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.5s 0.3s cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+.circle-hover
+{
+    fill: #4eb7f5 !important;
+    stroke: #4eb7f5 !important;
+}
+.ticket-count-hover
+{
+    color: #ffffff !important;
+}
+.edit_btn{
+    display: inline-block;
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 21px;
+    line-height: 51px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 51px;
+    background: transparent;
+    color: #4eb7f5;
+    margin-top: 30px;
+    border-color: #4eb7f5;
+    line-height: 48px;
+    width: 250px
+}
+.edit_btn:hover,.edit_on_btn:hover,.add_payments_btn:hover,.add_expense_btn:hover,.add_record_btn:hover,.excel_export_btn:hover,.edit-cur-button:hover,.edit-add-agent-button:hover,.edit-remove-agent-button:hover   {
+    color: #ffffff;
+    background: #4eb7f5;
+}
+.ticket-count{
+    font-family: "ProximaNova Light", sans-serif;
+    position: absolute;
+    right: 3px;
+    top: 12px;
+    padding-top: 18px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(2, 129, 204);
+    cursor: default;
+}
+.fast_view_table,.tickets_view_table,.table-agents-reports, .table-aviacompanies-reports
+{
+    width: 100%;
+    min-width: 855px;
+    border-collapse: collapse;
+}
+.fast_view_table th,.tickets_view_table th,.table-agents-reports th, .table-aviacompanies-reports th{
+   padding-top: 11px;
+   padding-bottom: 11px;
+   background-color:#d3edff ;
+   font-family: "ProximaNova Reg", sans-serif;
+   color: #20303c;
+   padding: 8px;
+   font-size: 16px;
+   text-align: center;
+   border: 1px solid #fff;
+}
+.fast_view_table td,.tickets_view_table td, .table-agents-reports td, .table-aviacompanies-reports td
+{
+  padding: 9px;
+  font-size: 14px; 
+  font-family: "ProximaNova Light", sans-serif; 
+  text-align: center;
+}
+.fast_view_table .no-tickets
+{
+    font-size: 18px;   
+}
+.tickets_view_table .no-tickets
+{
+    font-size: 18px;   
+}
+.fast_view_table tr,.tickets_view_table tr,.table-agents-reports tr, .table-aviacompanies-reports tr
+{
+    color: #000;
+    cursor:pointer ;
+}
+span.catcher {
+    width: 105px;
+    display: inline-flex;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+}
+.fast_view_table tr:hover,.tickets_view_table tr:hover
+ {background-color: rgb(239, 239, 239);}
+.table-agents-view .tr-hover:hover,.table-agents-expense .tr-hover:hover,.table-carriers-payments .tr-hover:hover,.table-agents-payments .tr-hover:hover,.table-carriers .tr-hover:hover
+{background-color:rgba(239, 239, 239, 0.6);}
+.cssload-container {
+	width: 100%;
+	height: 42px;
+	text-align: center;
+}
+.cssload-speeding-wheel {
+    float: right;
+    margin-right: 5px;
+    margin-top: 17px;
+    width: 45px;
+    height: 45px;
+/*	margin: 0 auto;*/
+	border: 3px solid rgb(69,158,237);
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation: cssload-spin 575ms infinite linear;
+		-o-animation: cssload-spin 575ms infinite linear;
+		-ms-animation: cssload-spin 575ms infinite linear;
+		-webkit-animation: cssload-spin 575ms infinite linear;
+		-moz-animation: cssload-spin 575ms infinite linear;
+}
+
+
+
+@keyframes cssload-spin {
+	100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+	100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+	100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+	100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.select-tr{
+    color: #018cde !important;
+}
+.hide-td{
+    display: none;
+}
+.doc-num{
+width: 132px; 
+}
+.loader-update
+{
+    float: none;
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    width: 35px;
+    height: 35px;
+   
+}
+.loader-agent-pay,.loader-carriers-pay
+{
+    float: none;
+    position: absolute;
+    right: -50px;
+    top: -17px;
+    width: 35px;
+    height: 35px;
+   
+}
+.txtlink {
+    text-decoration: none; 
+    color: #000;
+}
+.ticket-details,.agents-details,.div-reports,.carriers-details
+{   margin: 0px 40px;
+    height: 100%;   
+}
+.detailview-table{
+    color: #000;
+    width: 100%;
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.detailview-table th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #d3edff;
+    font-family: "ProximaNova Reg", sans-serif;
+    color: #20303c;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+.detailview-table td
+{
+  padding: 3px 9px;
+  font-size: 15px; 
+  font-family: "ProximaNova Light", sans-serif; 
+  width: 25%;
+}
+.lable-field
+{   color: #808080;
+    float: right;
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.edit_on_btn{
+   /* margin: 10px 0px;*/
+    float: right;
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 40px;
+    background: transparent;
+    color: #4eb7f5;
+    border-color: #4eb7f5;
+    width: 165px;
+}
+.filter_send_btn
+{
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 31px;
+    background: transparent;
+    color: #4CAF50;
+    border-color: #4CAF50;
+    width: 110px;  
+}
+.edit_send_btn
+{
+    float: right;
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 40px;
+    background: transparent;
+    color: #4CAF50;
+    border-color: #4CAF50;
+    width: 165px;  
+}
+.edit_agent_btn
+{
+   
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    margin-top: 2px;
+    height: 30px;
+    background: transparent;
+    color: #4CAF50;
+    border-color: #4CAF50;
+    width: 122px;
+}
+.edit_send_btn:hover,.filter_send_btn:hover,.edit_agent_btn:hover {
+    color: #ffffff;
+    background: #4CAF50;
+}
+.edit_cencel_btn
+{
+    float: right;
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    height: 40px;
+    background: transparent;
+    color: #f3050e;
+    width: 100px;
+}
+.add_record_btn
+{
+    float:left;
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 40px;
+    background: transparent;
+    color: #4eb7f5;
+    border-color: #4eb7f5;
+    width: 165px;
+    margin: 12px 0;
+}
+.add_expense_btn,.add_payments_btn
+{
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 40px;
+    background: transparent;
+    color: #4eb7f5;
+    border-color: #4eb7f5;
+    width: 165px;
+    margin: 0px 0;
+}
+.input_value_edit{
+    /* display: inline-block; */
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 15px;
+    font-family: "ProximaNova Light", sans-serif;
+    /* font-size: 13px; */
+    line-height: 15px;
+    color: #000;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 250px;
+}
+.detailview-table .form-group {
+     margin-bottom: 0px;
+}
+.input_value_edit:hover{
+    border-color:#565e6f !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.has-error .input_value_edit,.has-error input
+{
+   border: 1px solid red !important;  
+}
+.tickets{
+    margin: 0 40px;
+}
+.tickets-controller{
+    width:  100%;
+    height: 60px;    
+}
+.pagination > .active > a
+{
+ 
+   border-radius: 4px;
+   z-index: 0;
+
+}
+.pagination > li > a, .pagination > li > span {
+    margin-left: 0px; 
+    border: none;
+    font-size: 16px;
+    font-family: "ProximaNova Reg", sans-serif;  
+    }
+
+.pagination{
+    float: right;
+    margin: 15px 0;
+}
+.showfilterdetails
+{
+    float:left;
+    background: url(../images/Very-Basic-Filter-icon.png);
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin: 13px 0 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+.filter_active
+{
+     background: url(../images/green_plus.png);
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;   
+    position: absolute;
+    right: -2px;
+    top: 24px;
+}
+.clear-filters{
+    background: url(../images/clear.png);
+    background-size: 16px 17px;
+    width: 16px;
+    height: 17px;
+    cursor: pointer;
+    margin-top: 13px; 
+}
+.filter-div
+{  
+    width: 1135px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+.div-filter {
+    margin: 0 auto;
+}
+.div-filter > div
+{
+    float: left;
+    margin-right: 20px;
+}
+.filter-div .form-control
+{
+    height: 30px;
+}
+.field-filterticketsform-first_period,
+.field-filterticketsform-second_period,
+.field-filterticketsform-responsible,
+.field-filterticketsform-val_car,
+.field-filteragentsreportsform-first_period,
+.field-filteragentsreportsform-second_period,
+.field-filteragentsreportsform-responsible,
+.field-filteraviacompaniesreportsform-first_period,
+.field-filteraviacompaniesreportsform-second_period,
+.field-filteraviacompaniesreportsform-aviacompany
+{
+    width: 190px;
+}
+.field-filteragentsreportsform-responsible + button, .field-filteraviacompaniesreportsform-aviacompany + button
+{
+    float: left;
+    margin-left: 10px;
+    height: 29px;
+}
+.filter-title{
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 18px;
+    padding-top: 3px;
+}
+.input-group:hover,.field-filterticketsform-val_car:hover
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#filterticketsform-responsible:hover
+{
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.filterdetails{
+    margin: 10px 0px;
+    display: none;
+}
+.div-export-excel{
+    width: 60px;
+    float: left;
+    position: relative;
+    height: 60px;
+    }
+.excel_export_btn
+{
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 0px 0px;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 45px;
+    background: transparent;
+    color: #4eb7f5;
+    border-color: #4eb7f5;
+    width: 45px;
+    margin: 10px 13px;  
+}    
+    
+ .export-excel
+ {
+    font-family: "ProximaNova Reg",sans-serif;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    padding-top: 14px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 17px;
+    color: #4eb7f5;
+    cursor: pointer;
+ }   
+ .excel-circle 
+ {
+    cx: 40px !important;
+    cy: 24px !important;
+    r: 23px !important;
+ }
+ .sweet-overlay {
+  background-color: black;
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  /* IE8 */
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  z-index: 1000; }
+  
+  .sweet-alert {
+  background-color: white;
+    font-family: Arial, sans-serif;
+    width: 430px;
+    padding: 12px 17px 4px 17px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    margin-left: -256px;
+    margin-top: -200px;
+    overflow: hidden;
+    display: none;
+    z-index: 1010;
+  }
+  .hideSweetAlert {
+    -webkit-animation: hideSweetAlert 0.2s;
+    animation: hideSweetAlert 0.2s;
+}
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5); } }
+
+@keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5); } }
+
+.showSweetAlert{
+    -webkit-animation: showSweetAlert 0.3s;
+    animation: showSweetAlert 0.3s;
+}
+
+@-webkit-keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+@keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+    
+.edit-cur-button,.edit-add-agent-button,.edit-remove-agent-button{
+        /* margin: 10px 0px; */
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    border: 1px solid;
+    height: 36px;
+    background: transparent;
+    color: #4eb7f5;
+    border-color: #4eb7f5;
+    width: 140px;
+}   
+.cencel-edit-cur-button,.cencel-add-agent-button,.cencel-remove-agent-button{
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    height: 40px;
+    background: transparent;
+    color: #f3050e;
+    width: 100px; 
+    }
+.input-cur{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 90px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 6px;
+    color: #20303c;
+    padding: 0px;
+    /* padding-left: 41px; */
+    margin-top: 13px;
+    outline: none;
+    border-bottom: 1px solid #4eb7f5; 
+    }
+.ui-autocomplete-input{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 180px;
+    font-size: 17px;
+    margin-left: 6px;
+    color: #20303c;
+    padding-left: 8px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #4eb7f5; 
+    }       
+ .input-pay,.input-expense{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 150px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 6px;
+    color: #20303c;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #4eb7f5; 
+    }       
+.input-agent-name{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 300px;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 24px;
+    color: #20303c;
+    padding: 0px;
+    padding-left: 6px;
+    /* margin-top: 13px; */
+    outline: none;
+    border-bottom: 1px solid #4eb7f5;
+    } 
+ .input-agent-sine{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 300px;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: left;
+    /* margin-left: 6px; */
+    color: #20303c;
+    padding: 0px;
+    padding-left: 6px;
+    height: 24px;
+    /* margin-top: 13px; */
+    outline: none;
+    border-bottom: 1px solid #4eb7f5;
+    }    
+.table-agents-view,.report-table,.table-agents-expense,.table-carriers-payments,.table_edit_agent_pay
+{
+    width: 1124px;
+    border-collapse: collapse;
+    margin: 0px auto;
+}   
+.table-agents-payments
+{
+    min-width: 1197px;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0px auto;
+}   
+.table-agents-view td,.report-table td{
+    padding: 17px 0 17px 0;
+    font-size: 17px;
+    font-family: "ProximaNova Reg", sans-serif;
+    text-align: center;
+}
+.table-agents-expense td,.table-agents-payments td,.table_edit_agent_pay td
+{
+    padding: 12px 0 12px 0;
+    font-size: 17px;
+    font-family: "ProximaNova Reg", sans-serif;
+    text-align: center; 
+}
+.table-agents-payments td
+{
+    padding: 5px 0 5px 0;
+    font-size: 17px;
+    font-family: "ProximaNova Reg", sans-serif;
+    text-align: center;  
+}
+.table-carriers
+{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 0px auto;
+}  
+.input-carrier{ 
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 6px;
+    color: #20303c;
+    padding: 0px;
+    text-transform: uppercase;
+    /* padding-left: 41px; */
+    margin-top: 13px;
+    outline: none;
+    border-bottom: 1px solid #4eb7f5; 
+    }
+.table-carriers-payments td,.table-carriers td
+{
+    padding: 12px 10px 12px 10px;
+    font-size: 17px;
+    font-family: "ProximaNova Reg", sans-serif;
+    text-align: center; 
+    position: relative;
+}
+.table-agents-view tr,.table-agents-expense tr,.table-carriers tr{
+    border-top:1px solid rgba(104, 110, 124, 0.65);
+}
+.agents-controller
+{
+    width: 1024px;
+    height: 64px;
+    margin: 25px auto 0px;
+}
+.add_agent
+{
+    width: 600px;
+    left: 46%;
+    top: 38%;
+}
+.edit_pay_agent
+{
+    width: 1080px;
+    left: 32%;
+    top: 38%;
+}
+
+.agent_cencel_btn {
+    font-family: "ProximaNova Reg",sans-serif;
+    font-size: 15px;
+    text-align: center;
+    -ms-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -o-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    -moz-transition: all 600ms cubic-bezier(0.215,0.610,0.355,1.000);
+    cursor: pointer;
+    height: 30px;
+    background: transparent;
+    color: #f3050e;
+    width: 96px;
+}
+.filter-search
+{
+    font-family: "ProximaNova Reg", sans-serif;
+    border: none;
+    width: 320px;
+    font-size: 18px;
+    margin-left: 6px;
+    color: #333;
+    padding-left: 41px;
+    outline: none;
+    border-bottom: 1px solid #797676;
+}
+.head-date{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.date-expense {
+    width: 135px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ada9a9;
+    font-size: 16px;
+    background-color: transparent;
+}
+.table-agents-expense td .input-group-addon,.table-carriers-payments td .input-group-addon,.table_edit_agent_pay td .input-group-addon{
+    padding: 3px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center; 
+    border: none;
+    border-bottom: 1px solid #ada9a9;
+    background-color:transparent;
+    border-radius: 0px;
+   
+    }
+  .table-agents-expense td .input-group:hover,.table-carriers-payments td .input-group:hover,.table_edit_agent_pay td .input-group:hover {
+    box-shadow: none;
+}
+
+.table-agents-expense th,.table-carriers-payments th,.table-carriers th,.table_edit_agent_pay th{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #d3edff;
+    font-family: "ProximaNova Reg", sans-serif;
+    color: #20303c;
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 16.66%;
+}
+.table-agents-payments th{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #d3edff;
+    font-family: "ProximaNova Reg", sans-serif;
+    color: #20303c;
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 14.28%;
+}
+.text-note
+{
+        max-width: 300px;
+    max-height: 100px;
+    font-family: "ProximaNova Reg", sans-serif;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 13px;
+    margin: 0px 0px 0px 6px;
+    color: rgb(32, 48, 60);
+    padding: 7px;
+    outline: none;
+    border-bottom: 1px solid rgb(78, 183, 245);
+    height: 36px;
+    width: 159px;
+    background-color: transparent;
+}
+.exp-text
+{
+    max-width: 300px;
+    max-height: 100px;
+    font-family: "ProximaNova Reg", sans-serif;
+    font-size: 13px;
+    margin: 0px 0px 0px 6px;
+    color: rgb(32, 48, 60);
+    padding: 7px;
+    outline: none;
+    height: 36px;
+    width: 159px;
+    border: none;
+    background-color: transparent;
+}
+.icon:hover{
+  opacity: 1;  
+}
+.icon {
+    top: 15px;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    background: center center no-repeat;
+    background-size: 100% 100%;
+    width: 19px;
+    height: 19px;
+    opacity: .8;
+}
+.icon_edit {
+    right: 33px;
+    background-image: url(../images/edit_icon.png);
+}
+.icon_remove {
+    right: 10px;
+    background-image: url(../images/remove_icon.svg);
+}
+.table-carriers .tr-hover:hover .icon{
+  display: inline-block;  
+}
